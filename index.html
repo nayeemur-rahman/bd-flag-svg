@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="author" content="Nayeemur Rahman">
+        <meta name="description" content="SVG of the national flag of Bangladesh">
+        <title>SVG: National flag of Bangladesh</title>
+        <style>
+            *{
+                font-family: 'Times New Roman';
+            }
+            body{
+                width: 100%;
+                margin: 0;
+            }
+            #header{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-around;
+                width: 100%;
+                background-color:#5b34f1;
+                background-image: linear-gradient(#5b34f1, #eeeeff);
+                color: #ffffff;
+                flex-wrap:wrap;
+                align-items: center;
+                border-bottom: 1px solid #5b34f1;
+            }
+            #headline{
+                padding: 5px 20px;
+            }
+            #subheadline{
+                color: #5b34f1;
+                padding: 5px 10px;
+            }
+            #blankspace{
+                border-top: 1px solid #5b34f1;
+                margin-top: 2px;
+                background-color: #ffffff;
+                padding: 25px 0px;
+            }
+            #blankspace2{
+                background-color: #ffffff;
+                padding: 25px 0px;
+            }
+            #stand{
+                stroke: #000000;
+                stroke-width: 9;
+                stroke-linecap: round;
+            }
+            
+            #flag{
+                width:100%;
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="header">
+            <!--bjkk-->
+            <h1 id="headline">National flag of Bangladesh</h1>
+            <h4 id="subheadline">Created by Nayeemur Rahman</h4>
+        </div>
+        <div id="blankspace"></div>
+        <div id="flag">
+            <svg width="325" height="550">
+                <line id="stand" x1="12" y1="6" x2="12" y2="546"/>
+                <rect width="300" height="180" x="18" y="10" fill="#006747"/>
+                <circle cx="153" cy="96" r="60" fill="#DA291C"/>
+            </svg>
+        </div>
+        <div id="blankspace2"></div>
+    </body>
+</html>
